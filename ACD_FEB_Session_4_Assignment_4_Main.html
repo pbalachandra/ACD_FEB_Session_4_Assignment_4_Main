@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GRADIENT</title>
+	<style type="text/css">
+		.all{
+			border:all;
+			border-radius: 10px;
+			width: 70px;
+			height: 70px;
+			line-height: 70px;
+			text-align: center;
+			float: left;
+			margin: 20px;
+			box-shadow: 10px 10px 3px 0px darkgrey;
+		
+		}
+		.box{
+			background: linear-gradient(to right, red, green);
+			color: white;
+		}
+		.circle{
+			background: radial-gradient(circle farthest-corner at 35px 0px,red, yellow, green);
+		}
+		.ellipse{
+			background: radial-gradient(ellipse farthest-corner at 35px 0px,red, yellow, green);
+		}
+		
+	</style>
+</head>
+<body>
+
+<div class="all box">Box</div>
+<div class="all circle">Box</div>
+<div class="all ellipse">Box</div>
+
+</body>
+</html>
